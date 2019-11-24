@@ -1,0 +1,24 @@
+.aprendaainvestirPage{
+    background-image:url("../img/aprendaainvestir.JPG");
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+    position: relative;
+}
+.aprendaainvestirPage:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.1);
+}
+.BordaAIPage{
+    border-bottom: 3px solid #E74D85;
+}
+.AI{
+  color: #E74D85;
+}

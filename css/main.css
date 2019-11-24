@@ -1,0 +1,560 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto'; 
+    background-color:#F7F7F7;
+}
+               /*HEADER*/
+.menu-principal{
+    width: 100%;
+    background-color: #FFFFFF;
+    -moz-box-shadow: 5px 5px 5px 5px #737373;
+    -webkit-box-shadow: 5px 5px 5px 5px #737373;
+    box-shadow: 0 0 10px #737373;
+    position: fixed;
+    top:0px;
+    z-index: 1002;
+}
+a:hover {
+    text-decoration: none !important;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.PigHeaderMain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+
+.HeaderLogo{
+    height: 100%;
+    width: 70%;
+}
+
+.logo{
+    float: left; 
+    width: 200px;
+    height:85px;
+    padding-left: 20px !important;
+}
+
+.Pigmenu{    
+    display: inline;
+    width: 70%;
+    height: 100%;
+}
+
+.HambMenu{
+float: right;
+font-size: 30px;
+padding-top: 15px;  
+width: 24%;
+text-align: right;
+}
+.BordaHam{
+    color:gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.Pigmenu a{
+    float: right;
+    list-style: none;
+    margin-right: 45px;
+    padding-top: 18px;
+    
+    font-size: 1.6em;
+    color:#707070;
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.Pigmenu a:hover{
+    float: right;
+    list-style: none;
+    margin-right: 45px;
+    padding-top: 18px;
+    font-size: 1.6em;
+    color:#707070;
+    border-bottom: 2px solid #707070;
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.Pigmenu li a{
+    color:#707070;
+    text-decoration: none;
+}
+.AjustaContainer{
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
+}
+
+
+.burger-menu {
+    height: 28px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li a {
+    color:black;
+    padding-left: 15px;
+    }
+
+  a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .header-container {
+    padding-bottom: 7px;
+  }
+
+  .HeaderAjuste{
+      margin-top: 100px;
+      margin-bottom: 20px;
+  }
+  .nav-item {
+    padding: 7px 14px 7px 0;
+  }
+  
+  @media (max-width: 1199px) {
+    .header-container {
+      border-bottom: 1px solid #F5F5F5;
+    }
+    .header-container,
+    .burger-menu {
+      margin-top: 7px;
+    }
+    .burger-menu {
+      display: inline-block;
+      float: left;
+      width: 28px;
+    }
+    .navigation {
+      margin: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: 0.8s;
+    }
+    .nav-item {
+      border-top: 1px solid #F5F5F5;
+    }
+    .nav-checkbox:checked~ .navigation {
+      max-height: 250px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .hide-lg {
+      display: none;
+    }
+    .header-container {
+      margin-top: 14px;
+    }
+    .logo {
+      height: 70px;
+    }
+    .nav-item {
+      display: inline-block;
+      font-size: 120%;
+    }
+  }
+
+                /*CONTAINER MAIN*/
+.ContainerMain{
+    display: flex;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.MarginMd{
+    margin-top: 150px;
+}
+.aprendaainvestir{
+    background-image:url("../img/aprendaainvestir.JPG");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.aprendaainvestir:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0 !important;
+    background: rgba(0,0,0,0.1);
+}
+
+.saiadasdividas{   
+    background-image:url("../img/saiadasdividas.JPG");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.saiadasdividas:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.1);
+}
+.economiapessoal{   
+    background-image:url("../img/economiapessoal.JPG");
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.economiapessoal:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.1);
+}
+.comoeconomizar{   
+    background-image:url("../img/comoeconomizar.JPG");
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.comoeconomizar:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.1);
+}
+
+.ColorImg{
+    color:white;
+    position: absolute;
+    bottom: 10;
+    left: 10;
+    padding-left: 10px;
+    font-size:30px;
+
+}
+.aprendaainvestir:hover .BordaAI{
+
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-left: 3px solid #E74D85;
+    font-size: 40px;
+}
+
+.BordaAI{
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-left: 3px solid #E74D85;
+}
+
+.saiadasdividas:hover .BordaSD{
+
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-left: 3px solid #F7CD45;
+    font-size: 40px;
+}
+
+.BordaSD
+{
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-left: 3px solid #F7CD45;
+}
+
+.economiapessoal:hover .BordaEP{
+
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-left: 3px solid #27AB7F;
+    font-size: 40px;
+}
+
+.BordaEP
+{
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-left: 3px solid #27AB7F;
+}
+
+.comoeconomizar:hover .BordaCE{
+
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-left: 3px solid #5A3CA6;
+    font-size: 40px;
+}
+
+.BordaCE
+{
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-left: 3px solid #5A3CA6;
+}
+.SubContainerLeft
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.SubContainerRight{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+             /*SUB CONTAINER MAIN*/
+.SubContainerMain
+{
+    margin-top: 80px !important;
+    margin: 0 auto;
+}
+.HistoriaDoDinheiro{   
+    display: flex;
+    margin-bottom: 80px;
+}
+
+ .HistoriaDoDinheiroImg{   
+    background-image:url("../img/historiadodinheiro.JPG");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius:2px;
+    margin-bottom: 10px;
+}
+    
+.RHistoriaDoDinheiro{
+    display: block;
+}
+
+.RHDDTitle{
+    Color:#E74D85;
+    border-left: 3px solid #E74D85;
+    height: 35px; 
+    padding-left: 20px;
+    font-size:28px;
+    margin-left:10px;
+}
+
+.RDesc{
+    font-size:18px;
+    color:#707070;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.TiposDeCartoes{   
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+ .TiposDeCartoesImg{   
+    background-image:url("../img/TiposDeCartoes.JPG");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius:2px;
+    margin-bottom: 10px;
+}
+    
+.RTiposDeCartoes{
+    display: block;
+}
+
+.RTDCTitle{
+    Color:#27AB7F;
+    border-left: 3px solid #27AB7F;
+    height: 35px; 
+    padding-left: 20px;
+    font-size:28px;
+    margin-left:10px;
+}
+.removeunderline{
+    display: flex;
+    text-decoration: none;
+}
+.RDesc2{
+    font-size:18px;
+    color:#707070;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.ACasaDaMoeda{   
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
+ .ACasaDaMoedaImg{   
+    background-image:url("../img/ACasaDaMoeda.JPG");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;    
+    border-radius:2px;
+    margin-bottom: 10px;
+}
+    
+.RACasaDaMoeda{
+    display: block;
+}
+
+.RACDMTitle{
+    Color:#F7CD45;
+    border-left: 3px solid #F7CD45;
+    height: 35px; 
+    padding-left: 20px;
+    font-size:28px;
+    margin-left:10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.RACDMTitle a{
+    text-decoration: none;
+}
+
+
+
+.RDesc3{
+    font-size:18px;
+    color:#707070;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.ALuzNoFimDoCofre{   
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+ .ALuzNoFimDoCofreImg{   
+    background-image:url("../img/ALuzNoFimDoCofre.JPG");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius:2px;
+    margin-bottom: 10px;
+}
+    
+.RALuzNoFimDoCofre{
+    display: block;
+}
+
+.RALNFDCTitle{
+    Color:#5A3CA6;
+    border-left: 3px solid #5A3CA6;
+    height: 35px; 
+    padding-left: 20px;
+    font-size:28px;
+    margin-left:10px;
+}
+
+.RDesc4{
+    font-size:18px;
+    color:#707070;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.InfoTax{
+    width: 100%; 
+    height: 200px;
+}
+
+/*PAGES*/
+
+.centered {
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .ColorImgPage{
+    color:white;
+    padding-left: 10px;
+    font-size: 2.0em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.widthText{
+    width: 90%;
+}
+
+
+.TextIdent{
+    margin-top: 80px !important;
+    margin: 0 auto;
+    text-align: justify;
+    color:#707070;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.TextIdent a {
+    text-decoration: none;
+    color: gray;
+}
